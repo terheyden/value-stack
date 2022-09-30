@@ -7,15 +7,7 @@
     <name>value-stack</name>
     <version>0.0.1</version> <!-- here -->
     <description>Java Value Stack monad for Functional Programming</description>
-
-    <properties>
-        <java.version>17</java.version>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <junit-jupiter.version>5.9.1</junit-jupiter.version> <!-- org/junit/jupiter/junit-jupiter-api -->
-        <mockito.version>4.8.0</mockito.version> <!-- org/mockito/mockito-core -->
-    </properties>
+    <url>http://github.com/terheyden/value-stack</url>
 
     <licenses>
         <license>
@@ -36,6 +28,15 @@
         <developerConnection>scm:git:ssh://github.com:terheyden/value-stack.git</developerConnection>
         <url>http://github.com/terheyden/value-stack/tree/main</url>
     </scm>
+
+    <properties>
+        <java.version>17</java.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <junit-jupiter.version>5.9.1</junit-jupiter.version> <!-- org/junit/jupiter/junit-jupiter-api -->
+        <mockito.version>4.8.0</mockito.version> <!-- org/mockito/mockito-core -->
+    </properties>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/io.vavr/vavr -->
