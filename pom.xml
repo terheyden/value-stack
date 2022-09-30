@@ -5,7 +5,7 @@
     <groupId>com.terheyden</groupId>
     <artifactId>value-stack</artifactId>
     <name>value-stack</name>
-    <version>0.0.1</version> <!-- here -->
+    <version>0.0.2-SNAPSHOT</version> <!-- here -->
     <description>Java Value Stack monad for Functional Programming</description>
     <url>http://github.com/terheyden/value-stack</url>
 
