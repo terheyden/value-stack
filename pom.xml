@@ -237,7 +237,7 @@
                     <plugin>
                         <groupId>org.sonatype.plugins</groupId>
                         <artifactId>nexus-staging-maven-plugin</artifactId>
-                        <version>1.6.8</version>
+                        <version>1.6.13</version> <!-- org/sonatype/plugins/nexus-staging-maven-plugin -->
                         <extensions>true</extensions>
                         <configuration>
                             <serverId>ossrh</serverId>
@@ -250,7 +250,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
-                        <version>3.0.1</version>
+                        <version>3.0.1</version> <!-- org/apache/maven/plugins/maven-gpg-plugin -->
                         <executions>
                             <execution>
                                 <id>sign-artifacts</id>
@@ -267,7 +267,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
-                        <version>3.2.1</version>
+                        <version>3.2.1</version> <!-- org/apache/maven/plugins/maven-source-plugin -->
                         <executions>
                             <execution>
                                 <id>attach-sources</id>
@@ -282,7 +282,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-javadoc-plugin</artifactId>
-                        <version>3.2.0</version>
+                        <version>3.4.1</version> <!-- org/apache/maven/plugins/maven-javadoc-plugin -->
                         <configuration>
                             <!-- https://stackoverflow.com/questions/39616344/how-to-disable-javadoc-warnings-in-maven-javadoc-plugin -->
                             <additionalOptions>-Xdoclint:none</additionalOptions>
